@@ -1,17 +1,17 @@
-# News Headlines
+# News Articles API
 
 ## Endpoints:
 
-### Get Top Headlines
+### Get Latest News
 
-Returns all the top headlines
+Returns all the latest news
 Method: GET
 
-Endpoint: `http://127.0.0.1:8000/api/headlines`
+Endpoint: `http://127.0.0.1:8000/api/news`
 
-### Get All News
+### Get Breaking news
 
-Returns all news results
+Get the breaking news
 Method: GET
 
 You can define the limit of results by passing the `limit` query parameter.    
@@ -20,4 +20,4 @@ Max limit is 100.
 Minimum limit is 0.
 
 **Example:**   
-Endpoint: `http://127.0.0.1:8000/api/news?limit=25`
+Endpoint: `http://127.0.0.1:8000/api/breaking-news?limit=25`
